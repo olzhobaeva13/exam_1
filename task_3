@@ -1,0 +1,6 @@
+def func_1(list_):
+    new_list = ['Elements', 'start']
+    new_list.extend(list_)
+    new_list.append('finish')
+    return new_list
+print(func_1(['hello', 5, 'John']))
